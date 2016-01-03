@@ -11,3 +11,5 @@ Student_info.o: Student_info.cpp Student_info.h
 
 median.o: median.cpp median.h
 	g++ $(CFLAGS) -c median.cpp -o median.o
+
+make all: grader
